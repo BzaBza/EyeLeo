@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+/*header*/
+header{
+	min-height: 43em;
+	width: 100%;
+	padding-left: 10%;
+	padding-top: 1em;
+	display: block;
+	background-image:url('../graphic/top.png');
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center top;
+
+}
+
+#eyeleo{
+	max-width:40em;
+}
+
+.logo{
+	float: left;
+}
+
+.logo p{
+	font-weight:bold;
+	font-size: 20px;
+}
+
+#logo{
+	margin-right:5px;
+}
+
+/*navigation*/
+#navigation{
+	list-style: none; 
+}
+
+#navigation li {
+	float: left;
+	margin-right: 1px;
+	font-family:sans-serif;
+	font-size: 14px;
+}
+
+#navigation li a {
+	z-index: 1;
+	display: block; 
+	padding: 5px 20px;
+	color: #3f3f3f;
+	text-decoration: none;
+	position: relative;
+}
+
+#navigation li a:hover {
+	border:solid 2px black;}
+}
+
+a#pull{
+	position: absolute;
+	float:right;
+	text-align: right;
+}
+/*main*/
+
+.logo2 {
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
+
+.logo2 p{
+	font-size: 3em;
+}
+
+#logo2{
+	max-width: 70px;
+}
+
+/*button Buy Now*/
+
+.Buy{
+	color: black;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+#Buy{
+	background-color: #007B4D;
+	border:none;
+	padding: 5px 20px;
+	font-size: 20px; 
+	position: relative; 
+	
+}
+
+button#Buy:hover {
+	background-color: #72A85A;
+}
+
+/*footer*/
+footer{
+	background-image: url('../graphic/bottom.png');
+	background-repeat: no-repeat;
+	height: 20em;
+	width: 100%;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: cover;
+	background-position: center bottom;
+	right: 0;
+	bottom: 0;
+}
+
+.footer_content li{
+	margin-top: 10em;
+	float: right;
+	display: inline-block;
+}
+
+.footer_content li a{
+	color: black;
+	margin-right: 5em;
+	text-decoration: none;
+}
+
+.footer_content li a:hover{
+	border-radius: 10px;
+	background-color: #72A85A;
+}
+
+#footer_content li{
+	margin-top: 9em;
+	float: left;
+	display: inline-block;
+}
+
+#footer_content li a{
+	margin-right: 5em;
+}
+
+#footer_content li a img:hover{
+	border-radius: 30px;
+	background-color: #72A85A;
+}
+
+.copyright{
+	color: black;
+	margin-top: 17em;
+}

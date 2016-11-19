@@ -1,0 +1,45 @@
+.animation-legs{
+	margin-top: 80px; 
+	padding-right: 10px;
+
+}
+
+ @-webkit-keyframes  legs{
+	0%{opacity: 0.0;}
+	50%{opacity: 0.0;}
+	99%{opacity: 0.0;}
+	100%{opacity: 1.0;}
+}
+#leg1{
+	margin-top: 10px;
+	animation: linear 0.1s legs;
+}
+#leg2{
+	margin-bottom:30px;
+	margin-left: 30px; 
+	animation: linear 1.0s legs;
+}
+#leg3{
+	margin-top: 30px;
+	margin-left: 30px; 
+	animation: linear 2.0s legs;
+}
+#leg4{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 30px; 
+	animation: linear 3.0s legs;
+}
+#leg5{
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 50px; 
+	animation: linear 4.0s legs;
+}
+#leg6{
+	position: absolute;
+	margin-top: 290px;
+	margin-left: 50px; 
+	animation: linear 5.0s legs;
+}
+

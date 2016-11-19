@@ -1,0 +1,111 @@
+/*media queries*/
+@media screen and (max-width:410px) {
+body{
+	font-size: 12px;}
+
+h1{
+	font-size: 24px;}
+
+h2{
+	font-size: 18px;}
+
+nav li {  
+    display: block;  
+    float: none;  
+    width: 100%;}  
+
+#eyeleo{
+    width: 200px;}
+}
+
+
+@media screen and (max-width: 470px) {
+.footer_content li{
+	font-size: 12px;}
+
+.footer_content li img{
+	width: 30px;}
+
+.copyright{
+	font-size:12px;}	
+
+#computer{
+	width: 250px;}
+#eyeleo{
+	max-width: 200px;}
+}
+
+
+@media screen and (max-width: 500px) {
+#eyeleo{
+	max-width: 270px;}
+}
+
+
+@media screen and (max-width: 680px) {
+#eyeleo{
+	max-width: 350px;}
+
+.footer_content li {
+	margin-right: -3em;}
+
+#footer_content li{
+	text-align: center;
+	margin-right: -3em;}
+
+ul#footer_content li a img{
+	text-align: center;
+	width: 35px;}
+}
+
+
+@media screen and (min-width:411px) {
+nav  a#pull {
+	display: none;}
+}	
+
+@media screen and (max-width:411px) {
+nav ul { 
+	float: right;  
+    min-height: 50px;}
+
+nav ul a {
+	border-bottom: none;}
+
+nav  a#pull {
+	float: right;
+	text-align: right;
+	z-index: 1;
+	text-decoration: none;  
+    width: 100%;  
+    position: relative;
+    color: black;} 
+} 
+
+@media screen and (max-width:922px) {
+.footer_content li{
+	float: none;
+	margin-top: 5em;
+	padding-left: 2em;}
+
+#footer_content li{
+	float: none;
+	margin-top: 5em;} 
+
+.copyright{
+	margin-top: 2em;}
+}
+
+@media screen and (max-width:1100px) {
+.animation-legs{
+	display: none;}
+}
+
+
+@media screen and (min-width: 1378px){
+header{
+	background-position: center bottom;}
+
+footer{
+	background-position: center top;}
+}
