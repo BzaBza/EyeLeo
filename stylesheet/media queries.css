@@ -9,13 +9,19 @@ h1{
 h2{
 	font-size: 18px;}
 
-nav li {  
-    display: block;  
+#navigation li { 
+    display: inline-block;  
     float: none;  
-    width: 100%;}  
+    width: 50%;}  
 
-#eyeleo{
-    width: 200px;}
+.logo img{
+	width: 30px;}
+
+.logo p{
+	font-size:14px;} 	
+    
+.logo2{
+ 	display: none;}
 }
 
 
@@ -29,18 +35,49 @@ nav li {
 .copyright{
 	font-size:12px;}	
 
-#computer{
-	width: 250px;}
-#eyeleo{
-	max-width: 200px;}
+img#eyeleo{
+	 max-width: 100%;}
 }
 
 
 @media screen and (max-width: 500px) {
 #eyeleo{
-	max-width: 270px;}
+	 max-width: 100%;}
 }
 
+@media screen and (min-width:535px) {
+nav  a#pull {
+	display: none;}
+}	
+
+@media screen and (max-width:535px) {
+#navigation{
+	padding-left: 30%;
+	}
+
+#navigation li {
+	display: block;
+	margin-top: 1em;
+	position: relative;
+	z-index: 1;}
+
+#navigation li a {
+	font-size: 12px;
+	border-bottom: none;}
+
+nav  a#pull {
+	font-weight: bold;
+	float: right;
+	text-align: right;
+	z-index: 1;
+	text-decoration: none;  
+    width: 62.3%;
+    margin-top: 0.5em;  
+    color: black;} 
+    
+.logo{
+	max-width: 150px;}   
+} 
 
 @media screen and (max-width: 680px) {
 #eyeleo{
@@ -59,34 +96,14 @@ ul#footer_content li a img{
 }
 
 
-@media screen and (min-width:411px) {
-nav  a#pull {
-	display: none;}
-}	
-
-@media screen and (max-width:411px) {
-nav ul { 
-	float: right;  
-    min-height: 50px;}
-
-nav ul a {
-	border-bottom: none;}
-
-nav  a#pull {
-	float: right;
-	text-align: right;
-	z-index: 1;
-	text-decoration: none;  
-    width: 100%;  
-    position: relative;
-    color: black;} 
-} 
-
 @media screen and (max-width:922px) {
 .footer_content li{
 	float: none;
 	margin-top: 5em;
 	padding-left: 2em;}
+
+#footer_content{
+	margin-left: 2em;}
 
 #footer_content li{
 	float: none;
@@ -96,9 +113,19 @@ nav  a#pull {
 	margin-top: 2em;}
 }
 
+@media screen and (max-width:992px){
+.clearfix{
+	text-align: center;}
+
+}
+
 @media screen and (max-width:1100px) {
 .animation-legs{
 	display: none;}
+#computer{
+	max-width: 80%;}
+header{
+	padding-left: 0;}
 }
 
 

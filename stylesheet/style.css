@@ -13,7 +13,7 @@ body{
 header{
 	min-height: 43em;
 	width: 100%;
-	padding-left: 10%;
+	padding-left:10%;
 	padding-top: 1em;
 	display: block;
 	background-image:url('../graphic/top.png');
@@ -40,16 +40,19 @@ header{
 }
 
 #logo{
+	width: 40px;
 	margin-right:5px;
 }
 
 /*navigation*/
 #navigation{
+	margin-top: 1em;
 	list-style: none; 
 }
 
 #navigation li {
-	float: left;
+	display: inline-block; 
+	text-align: center;
 	margin-right: 1px;
 	font-family:sans-serif;
 	font-size: 14px;
@@ -57,7 +60,6 @@ header{
 
 #navigation li a {
 	z-index: 1;
-	display: block; 
 	padding: 5px 20px;
 	color: #3f3f3f;
 	text-decoration: none;
@@ -67,20 +69,15 @@ header{
 #navigation li a:hover {
 	border:solid 2px black;}
 }
-
-a#pull{
-	position: absolute;
-	float:right;
-	text-align: right;
-}
 /*main*/
 
 .logo2 {
-	margin-top: 15%;
+	padding-top: 33%;
 	margin-bottom: 10%;
 }
 
 .logo2 p{
+	margin-top:18%;
 	font-size: 3em;
 }
 
@@ -114,9 +111,9 @@ footer{
 	background-repeat: no-repeat;
 	height: 20em;
 	width: 100%;
-	-moz-background-size: 100%;
-	-webkit-background-size: 100%;
-	-o-background-size: 100%;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	background-position: center bottom;
 	right: 0;
